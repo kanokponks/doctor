@@ -1,0 +1,66 @@
+/* Theme-specific rules for the WP Editor */
+.trx_addons_tooltip:before {
+    padding: 0.4em 1em;
+}
+.trx_addons_dropcap {
+    font-size: 2.688em;
+    font-weight: 700;
+    width: 1.4em;
+    height: 1.4em;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    border-radius: 0;
+    margin: 0.45rem 1.4rem 0 0;
+}
+.trx_addons_dropcap_style_2 {
+    font-size: 3.438em;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    width: auto;
+    height: auto;
+    margin: 0.1rem 2.1rem 0 0;
+}
+
+
+.sc_table table th, .sc_table table td {
+    padding: 1.7em 1em;
+}
+.sc_table table tr:first-child th, .sc_table table tr:first-child td {
+    font-weight: 500;
+    text-transform: none;
+    font-size: 1.125em;
+    padding: 1.2em 1em;
+}
+ul[class*="trx_addons_list_empty"] {
+    padding-left: 0;
+}
+ul[class*="trx_addons_list_success"] > li:before {
+    font-size: 14px;
+    left: -1.6em;
+}
+ul[class*="trx_addons_list_custom"] > li:before {
+    font-size: 22px;
+    left: -0.8em;
+}
+ul[class*="trx_addons_list"] li + li {
+    margin-top: 0.125em;
+}
+
+.widget_area .post_item .post_info, aside .post_item .post_info {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.63;
+    margin-bottom: 0;
+}
+.widget_area .post_item .post_title, aside .post_item .post_title {
+    font-size: 1.25em;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0.7rem 0 0.85rem;
+}
+aside .post_item + .post_item {
+    border-top: 1px solid;
+    margin-top: 1.9em;
+    padding-top: 2em;
+}
